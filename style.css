@@ -194,3 +194,52 @@ body {
 .skills {
     padding-left: 50px;
 }
+
+.additional-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.additional-info__education {
+    margin-bottom: 20px;
+}
+
+.additional-info__education-header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.additional-info__education-university-durability {
+    color: var(--durability-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.additional-info__education-university-speciality {
+    color: var(--primary-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.additional-info__education-university-name {
+    color: var(--secondary-text-color);
+}
+
+.additional-info__languages {
+    margin-bottom: 20px;
+}
+
+.additional-info__languages-header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.additional-info__languages-item {
+    color: var(--secondary-text-color);
+}
