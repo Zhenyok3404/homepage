@@ -1,3 +1,4 @@
+//code
 const spollersArray = Array.from(document.querySelectorAll("[data-spollers]"));
 if (spollersArray.length > 0) {
     initSpollers(spollersArray);
