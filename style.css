@@ -292,3 +292,10 @@ body {
     padding: 0 15px 10px;
     color: var(--secondary-text-color);
 }
+
+.timeline {
+    list-style: none;
+}
+.timeline li {
+    margin-bottom: 15px;
+}
