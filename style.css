@@ -243,3 +243,52 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+.accordion {
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+.accordion__item {
+    background-color: #f0f0f0;
+    border: 2px solid #0f919145;
+    border-radius: 25px;
+    box-shadow: 1px 1px #0f919145;
+}
+.accordion__item:not(:last-child) {
+    margin: 0px 0px 10px 0px;
+}
+.accordion__title {
+    width: 100%;
+    text-align: left;
+    font-size: 1.17em;
+    color: #000;
+    padding: 10px;
+    position: relative;
+    border: none;
+    border-radius: 25px;
+}
+.accordion._init .accordion__title {
+    cursor: pointer;
+    padding: 10px 40px 10px 10px;
+}
+.accordion._init .accordion__title::before,
+.accordion._init .accordion__title::after {
+    content: "";
+    width: 20px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    transition: transform 0.3s ease 0s;
+}
+.accordion._init .accordion__title::after {
+    transform: rotate(-90deg);
+}
+.accordion._init .accordion__title._active::after {
+    transform: rotate(0deg);
+}
+.accordion__text {
+    padding: 0 15px 10px;
+    color: var(--secondary-text-color);
+}
